@@ -1,0 +1,64 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align:right;
+    padding:30px;
+}
+
+footer{
+    margin-right: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+body {
+    overflow: hidden; 
+}
+
+p{
+    color: white;
+}
+
+#mensaje-horario{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20vh;
+    padding-bottom: 40vh;
+    margin-bottom: 0px;
+}
+
+#contenedor-principal{
+    height: 100vh;
+}
+
+.dark-mode-button{
+    font-size: 60px;
+    color:white;
+}
+
+.dark-mode-message {
+    padding: 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    footer{
+        margin-right: 20px;
+        text-align: right;
+        font-size: 20px;        
+    }
+    
+    #mensaje-horario{
+        font-size: 100px;
+        color:white;
+
+    }
+
+    .dark-mode-message {
+        font-size: 20px;
+    }
+
+}
