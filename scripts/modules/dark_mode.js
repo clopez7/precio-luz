@@ -1,3 +1,4 @@
+import {setTariffMessage} from "./setText.js"
 export function setMode( mode, currentTariff ){
     if( mode == 'light') {
         if ( currentTariff == 'valle') {
@@ -63,8 +64,4 @@ export function setMode( mode, currentTariff ){
         y[0].style.color = c;
 
     }
-}
-
-function setTariffMessage ( m ){
-    document.getElementById("mensaje-horario").innerHTML = m
 }

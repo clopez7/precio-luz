@@ -5,7 +5,7 @@ var darkModeStatus
 var currentTariff
 
 try{
-    //Fetch current tariff
+    //Fetch current tariff, set main message
     currentTariff = tariffCalculator.getCurrentTariff()
     //Apply default mode of tariff
     darkMode.setMode( "dark", currentTariff )
