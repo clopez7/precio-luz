@@ -1,5 +1,7 @@
 import {setTariffMessage} from "./setText.js"
+
 export function setMode( mode, currentTariff ){
+    
     if( mode == 'light') {
         if ( currentTariff == 'valle') {
             horaValle( false );

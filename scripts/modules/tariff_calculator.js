@@ -7,19 +7,19 @@ var tariff
 
 export function getCurrentTariff(){
     //Fetch the current time discrimination tariff from the date object
-    
 
     checkForNationalHoliday();
 
     if( holiday ){
         tariff = "valle";
-    } else if ( currentDay == 0 || currentDay == 1 ){
+    } else if ( currentDay == 6 || currentDay == 0 ){
         tariff = "valle";
     } else if (currentHour >= 0 && currentHour < 8) {
         tariff = "valle";
     } else if ( currentHour >= 8 && currentHour < 10 || currentHour >= 14 && currentHour < 18 || currentHour == 22 || currentHour == 23 ){
         tariff = "llana";
     } else if ( currentHour >= 10 && currentHour < 14 || currentHour >= 18 && currentHour <= 22) {
+        //ahgora
         tariff = "punta";
     } 
     else{
