@@ -31,7 +31,7 @@ export function setMode( mode, currentTariff ){
         if ( d ){
             setBackgroundColor('#4d4019')
         }else{
-            setBackgroundColor(yellow)
+            setBackgroundColor('yellow')
             
             var x = document.getElementsByTagName("p");
             var y = document.getElementsByTagName("h1");
